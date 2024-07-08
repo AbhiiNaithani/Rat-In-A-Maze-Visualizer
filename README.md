@@ -10,7 +10,6 @@ Welcome to the Rat in a Maze Visualizer! This project is a web-based visualizati
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Demo
@@ -83,13 +82,9 @@ We welcome contributions from the community! To contribute:
 
 Please make sure your code adheres to the project's coding standards and includes appropriate tests.
 
-/* ## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details. */
 
 ## Acknowledgements
 
 - [React](https://reactjs.org/) for the framework
 - [Tailwind CSS](https://tailwindcss.com/) for the layout
-/* - The open-source community for their valuable contributions */
 
