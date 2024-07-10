@@ -1,7 +1,7 @@
 import {useState } from "react"
 import { configType, } from "../types"
 
-export const Configuration = ({initialConfig, configHandler, flag, flagHandler, resetHandler,findPathHandler} :{initialConfig : configType , configHandler: any, flag : any, flagHandler: any, resetHandler: any,findPathHandler: any}) => {
+export const Configuration = ({initialConfig, configHandler, flagHandler, resetHandler,findPathHandler} :{initialConfig : configType , configHandler: any, flagHandler: any, resetHandler: any,findPathHandler: any}) => {
     const [rows,setRows] = useState(initialConfig.numRows);
     const [cols,setCols] = useState(initialConfig.numCols);
 

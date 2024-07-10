@@ -3,7 +3,7 @@ import { Configuration } from "./components/Configuration"
 import { Grid } from "./components/Grid"
 import { Header } from "./components/Header"
 import { configType,cellType } from "./types"
-import { backtracking,bfs } from "./Algorithm/RatInAMaze"
+import {bfs } from "./Algorithm/RatInAMaze"
 
 
 function App() {
@@ -145,7 +145,7 @@ function App() {
       <Header/>
       <div className="flex flex-grow flex-row">
         <Grid initialConfig = {initialConfig} configHandler = {configHandler} grid = {grid} setGrid={setGrid} flag = {flag} flagHandler = {flagHandler} clearPath={clearPath}/>
-        <Configuration initialConfig = {initialConfig} configHandler = {configHandler} flag = {flag} flagHandler = {flagHandler} resetHandler={resetHandler} findPathHandler={findPathHandler}/>
+        <Configuration initialConfig = {initialConfig} configHandler = {configHandler} flagHandler = {flagHandler} resetHandler={resetHandler} findPathHandler={findPathHandler}/>
       </div>
     </div>
       
