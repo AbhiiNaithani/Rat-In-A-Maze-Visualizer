@@ -14,7 +14,7 @@ Welcome to the Rat in a Maze Visualizer! This project is a web-based visualizati
 
 ## Demo
 
-You can view a live demo of the project [here](https://your-demo-url.com).
+You can view a live demo of the project [here](https://rat-in-a-maze-abhii-naithani.netlify.app).
 
 ## Features
 
