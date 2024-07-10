@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.start{
+    background-image: url("https://imgs.search.brave.com/r2edvu0_GUkp0cZYeRmjV9Kemcww2EIMLCVNkV2rbwg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9wbmdp/bWcuY29tL3VwbG9h/ZHMvdG9tX2FuZF9q/ZXJyeS9zbWFsbC90/b21fYW5kX2plcnJ5/X1BORzUzLnBuZw");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.end{
+    background-image: url("https://imgs.search.brave.com/2IBsx0jWlCzfoM41HwfHAqDnj-E_qLxiaXdmsl6jPxs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5nYWxsLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNi8w/My9DaGVlc2UtRnJl/ZS1Eb3dubG9hZC1Q/TkcucG5n");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.wall{
+    background-image: url("https://imgs.search.brave.com/Yx0D-j6oYEeMKgRY4VPaPh8yZBGbIX_vzngtrg9IXWo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jbGlw/YXJ0LWxpYnJhcnku/Y29tL25ld19nYWxs/ZXJ5LzM4NC0zODQ3/ODIzX2JyaWNrLXdh/bGwtaW1hZ2VzLW11/cm8tZGUtbGFkcmls/bG9zLXBuZy5wbmc");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.path{
+    /* background-color: green; */
+    background-image: url("https://imgs.search.brave.com/NdrwyxUHRV6xnrkQMLO0fWExuXHR4nAjVkHrw-RtETA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jbGlw/YXJ0LmluZm8vaW1h/Z2VzL21pbmljb3Zl/cnMvMTU2MDI2OTgx/NW5hdHVyYWwtZ3Jh/c3MtcG5nLXRvcC12/aWV3LnBuZw");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
